@@ -6,6 +6,7 @@ require 'sinatra/reloader' if development? # gem install sinatra-reloader
 require 'haml' # gem install haml
 require 'sinatra/activerecord'
 require 'sass'
+require 'slim'
 
 require './song'
 

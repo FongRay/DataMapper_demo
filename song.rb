@@ -17,3 +17,14 @@ end
 
 DataMapper.finalize
 
+get ('/songs/styles.css') { scss :styles }
+
+get '/songs' do
+  @songs = Song.all
+  erb :songs
+end
+
+get '/songs/:id' do
+  @song = Song.get(params[:id])
+  erb :show_song
+end
