@@ -69,10 +69,10 @@ Frank Sinatra.</p>
 
 @@about
 <p>This site is a demonstration of how to build a website using
-Sinatra.</p>
+Sinatra. -- by rfang@vmware.com</p>
 
 @@contact
-<p>You can contact me by sending an email to daz at gmail.com</p>
+<p>You can contact me by sending an email to rfang at vmware.com</p>
 
 @@show
 <h1>Hello <%= @name %>!</h1>
