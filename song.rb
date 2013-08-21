@@ -2,7 +2,7 @@ require 'dm-core'
 require 'dm-migrations'
 
 # database connection
-DataMapper.setup(:default, 'postgres://rfang:1007-ecnu@localhost/test')
+DataMapper.setup(:default, 'postgres://rfang:****@localhost/test')
 
 # define a model
 class Song
